@@ -1,0 +1,120 @@
+.header{
+    background-color: #2c2c54;
+}
+.header-logo img{
+    width: 165px;
+    height: auto;
+}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a{
+    display: block;
+    color: white;
+    padding: 0 20px;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 10px 0;
+    
+    
+    
+}
+.primary-menu ul li a:hover{
+    background-color: #40407a;
+    border-radius: 20px;
+    border-right: 2px solid yellow;
+    border-left: 2px solid yellow;
+}
+
+    /* Banner Section */
+.banner{
+    background-image: url(./airballon.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    margin-top: 50px;
+}
+.banner-text h2{
+    display: inline-block;
+    background-color: rgba(247, 234, 162, 0.486);
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    padding: 6px 105px;
+    border-radius: 50px;
+}
+.banner-text h5{
+    display: inline-block;
+    background-color: rgba(250, 195, 75, 0.555);
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    padding: 4px 105px;
+    border-radius: 50px;
+}
+
+    /* About Ssection */
+.about{
+    background-color: rgb(218, 218, 218);
+}
+
+    /* Service Section */
+.card{
+    border: 2px solid grey;
+}
+.card span i{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.service a{
+    color: rgb(32, 32, 32);
+}
+
+    /* Middle Content */
+.middle-content img{
+    margin-left: -49px;
+}
+    /* Footer Section */
+.footer{
+    background-color: #222f3e;
+}
+.footer-one h6{
+    color: white;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer-one ul li a{
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    margin-left: -40px;
+}
+.another-footer a{
+    color: white;
+    font-size: 15px;
+}
+.another-footer p{
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.another-footer ul{
+    margin-right: 0px;   
+    margin-left: 110px;
+
+}
+.another-footer ul li{
+    display: inline-block;
+}
+.another-footer ul li a{
+    display: inline-block;
+    font-size: 11px;
+    padding: 0 10px;
+}
