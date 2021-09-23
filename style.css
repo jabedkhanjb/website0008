@@ -73,6 +73,27 @@
 .service a{
     color: rgb(32, 32, 32);
 }
+/* Product Section */
+.product img{
+    width: 300px;
+}
+.notice{
+    margin-top: 100px;
+}
+.notice ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 15px;
+    border: 1px solid grey;
+    margin-top: 8px;
+    margin-left: -40px;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+}
+.notice ul li:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
 
     /* Middle Content */
 .middle-content img{
